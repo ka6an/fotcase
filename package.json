@@ -1,0 +1,40 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "browser-sync": "^2.2.3",
+    "cssnext": "^1.8.4",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-csslint": "^1.0.0",
+    "gulp-file-include": "^1.2.0",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.1.1",
+    "imagemin-pngquant": "^4.0.0",
+    "jquery": "^3.2.1",
+    "postcss-calc": "^6.0.1",
+    "postcss-custom-properties": "^6.1.0"
+  },
+  "browserslist": [
+    "> 10%",
+    "last 7 versions",
+    "ff > 4",
+    "opera > 9"
+  ],
+  "scripts": {
+    "start": "NODE_ENV=dev gulp start",
+    "build": "NODE_ENV=prod gulp build"
+  },
+  "dependencies": {
+    "postcss-units": "^1.1.0"
+  }
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>fotcase</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/main.min.css">
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '498056134005793');
+  fbq('track', 'PageView');
+</script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=498056134005793&ev=PageView&noscript=1"
+/></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body style="opacity: 0;">
+  <div class="case-top">
+    <img class="case-top__img" src="/img/arrow-top.svg" alt="">
+    <img class="case-top__img_white" src="/img/arrow-top-white.svg" alt="">
+  </div>
+    <header class="header _header">
+      <div class="wrap wrap_header">
+        <nav class="header-nav">
+          <a href="#main" class="nav__logo"></a>
+          <a href="#projects" class="nav__link">Проекты</a>
+          <a href="#partners" class="nav__link">Клиенты</a>
+          <a href="#services" class="nav__link">Услуги</a>
+          <a href="#contacts" class="nav__link">Контакты</a>
+        </nav>
+        <p class="header__projects _header__projects" onclick="openModalProjects();">Все проекты<span class="header__projects_points"></span></p>
+      </div>
+    </header>
+    <header class="header-mobile _header-mobile">
+      <div class="wrap wrap_header">
+        <a href="#main" class="nav__logo"></a>
+        <nav class="header-nav _header-nav">
+          <a href="#projects" class="nav__link">Проекты</a>
+          <a href="#partners" class="nav__link">Клиенты</a>
+          <a href="#services" class="nav__link">Услуги</a>
+          <a href="#contacts" class="nav__link">Контакты</a>
+        </nav>
+        <div class="menu-line-wrap _menu-line-wrap" onclick="displayMobileMenu();">
+          <span class="menu-line"></span>
+        </div>
+      </div>
+    </header>
+    <header class="header _header-fixed header-fixed">
+      <div class="wrap wrap_header">
+        <nav class="header-nav">
+          <a href="#main" class="nav__logo"></a>
+          <a href="#projects" class="nav__link">Проекты</a>
+          <a href="#partners" class="nav__link">Клиенты</a>
+          <a href="#services" class="nav__link">Услуги</a>
+          <a href="#contacts" class="nav__link">Контакты</a>
+        </nav>
+        <p class="header__projects _header__projects" onclick="openModalProjects();">Все проекты<span class="header__projects_points"></span></p>
+        <p class="header__mail _header__mail" onclick="openModal('modal-mail');"></p>
+        <a href="#contacts" class="header__mail _header__mail _anchor header__mail_mobile"></a>
+      </div>
+    </header>
+    <div class="modal-window modal-window_projects" id="modal-projects">
+      <div class="modal-wrap">
+        <header class="header _header_projects header_projects">
+          <div class="wrap wrap_header">
+            <nav class="header-nav">
+              <a href="#main" class="nav__logo"></a>
+              <a href="#projects" class="nav__link">Проекты</a>
+              <a href="#partners" class="nav__link">Клиенты</a>
+              <a href="#services" class="nav__link">Услуги</a>
+              <a href="#contacts" class="nav__link">Контакты</a>
+            </nav>
+          </div>
+        </header>
+        <span class="modal-body__btn_close" aria-hidden="true" aria-label="Close" onclick="closeModalProjects();">Закрыть</span>
+        <div class="wrap modal-body">
+          <h3 class="projects__title">Все проекты</h3>
+          <div class="projects-wrap">
+            <div class="projects-item _case" data-hash="case-1">
+              <p class="modal-body__title">Вконтакте</p>
+              <div class="projects-item-wrap">
+                <div class="projects__img" style="background-image: url(../img/products/case-1.jpg)"></div>
+                <p class="projects-item__text">Фотосъемка для
+                  <br /> запуска VK Shop</p>
+              </div>
+            </div>
+            <div class="projects-item _case" data-hash="case-2">
+              <p class="modal-body__title">АДЕПТ</p>
+              <div class="projects-item-wrap">
+                <div class="projects__img" style="background-image: url(../img/products/case-2.jpg)"></div>
+                <p class="projects-item__text">Полная переупаковка
+                  <br />фотоконтента группы
+                  <br />компаний</p>
+              </div>
+            </div>
+            <div class="projects-item _case" data-hash="case-3">
+              <p class="modal-body__title">Fotcase</p>
+              <div class="projects-item-wrap">
+                <div class="projects__img" style="background-image: url(../img/products/case-3.jpg)"></div>
+                <p class="projects-item__text">Создание контента<br />
+                  для вывода проекта<br />
+                  на Kickstarter</p>
+              </div>
+            </div>
+            <div class="projects-item _case" data-hash="case-4">
+              <p class="modal-body__title">Трансформатор</p>
+              <div class="projects-item-wrap">
+                <div class="projects__img" style="background-image: url(../img/products/case-4.jpg)"></div>
+                <p class="projects-item__text">Полное фото
+                  <br />обслуживание бренда</p>
+              </div>
+            </div>
+            <div class="projects-item _case" data-hash="case-5">
+              <p class="modal-body__title">ТВ3</p>
+              <div class="projects-item-wrap">
+                <div class="projects__img" style="background-image: url(../img/products/case-5.jpg)"></div>
+                <p class="projects-item__text">Эксклюзивный репортаж
+                  <br />со съемок фильма «Гоголь»</p>
+              </div>
+            </div>
+            <div class="projects-item _case" data-hash="case-6">
+              <p class="modal-body__title">Fullmate</p>
+              <div class="projects-item-wrap">
+                <div class="projects__img" style="background-image: url(../img/products/case-6.jpg)"></div>
+                <p class="projects-item__text">Съемка устройства
+                  <br />для вывода
+                  <br />на российский рынок</p>
+              </div>
+            </div>
+            <div class="projects-item _case" data-hash="case-7">
+              <p class="modal-body__title">Cape weligama</p>
+              <div class="projects-item-wrap">
+                <div class="projects__img" style="background-image: url(../img/products/case-7.jpg)"></div>
+                <p class="projects-item__text">Рекламная фотосъемка
+                  <br />для сайта</p>
+              </div>
+            </div>
+          </div>
+          <div class="projects-buttons">
+            <a href="#contacts" class="btn btn_red _anchor" role="button">Заказать проект</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-window" id="modal-mail">
+      <div class="modal-wrap">
+        <span class="modal__overlay" onclick="closeModal('modal-mail');"></span>
+        <span class="modal-body__btn_close" aria-hidden="true" aria-label="Close" onclick="closeModal('modal-mail');">Закрыть</span>
+        <div class="modal-body">
+          <p class="modal-body__title">Обратная связь</p>
+          <h2 class="modal-body__header">Свяжитесь с нами по телефону, через удобный мессенджер или закажите звонок, заполнив форму</h2>
+          <form id="form" class="form" method="POST" action="/send.php">
+            <input class="form__input" name="name" type="text" placeholder="Ваше имя" required>
+            <input class="form__input form__input_short" name="phone" type="phone" placeholder="Телефон" required>
+            <input class="form__input form__input_short" name="email" type="email" placeholder="E-mail" required>
+            <fieldset class="form-checkbox">
+              <input id="checkbox-agree-1" class="form-checkbox__agree" type="checkbox" checked required>
+              <label class="form-checkbox__label" for="checkbox-agree-1">Я принимаю <a class="form-checkbox__link">условия передачи информации</a></label>
+            </fieldset>
+            <button class="btn btn_red">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>

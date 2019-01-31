@@ -1,0 +1,57 @@
+<footer id="contacts" class="footer _menu">
+  <div class="cont">
+    <p class="section__title">Контактная информация</p>
+    <h2 class="section__h1">Свяжитесь с нами по телефону,<br />через удобный мессенджер или<br />закажите звонок, заполнив форму</h2>
+  </div>
+  <div class="wrap wrap_footer">
+    <form id="form-footer" class="form" method="POST" action="/send.php">
+      <input class="form__input" name="name" type="text" placeholder="Ваше имя" required>
+      <input class="form__input form__input_short" name="phone" type="phone" placeholder="Телефон" required>
+      <input class="form__input form__input_short" name="email" type="email" placeholder="E-mail" required>
+      <fieldset class="form-checkbox">
+        <input id="checkbox-agree-2" class="form-checkbox__agree" type="checkbox" checked required>
+        <label class="form-checkbox__label" for="checkbox-agree-2">Я принимаю <a class="form-checkbox__link">условия передачи информации</a></label>
+      </fieldset>
+      <button class="btn btn_red">Отправить</button>
+    </form>
+    <div class="contacts">
+      <div class="contact-item">
+        <img class="contact__icon" src="/img/icon-phone.svg" alt="">
+        <p class="contact__text">
+          <b class="contact__text_b">Телефон</b> +7 (999) 525-58-19
+          
+        </p>
+      </div>
+      <div class="contact-item">
+        <img class="contact__icon" src="/img/icon-mail-gray.svg" alt="">
+        <p class="contact__text">
+          <b class="contact__text_b">E-mail</b> fotcasecompany@gmail.com
+        </p>
+      </div>
+      <div class="contact-social">
+        <a href="https://telegram.im/@antoshka_severo" class="contact-social__link">
+            <img src="/img/icon-tg.svg" class="contact-social__icon" alt="">
+          </a>
+        <a href="https://api.whatsapp.com/send?phone=79995255819" class="contact-social__link">
+            <img src="/img/icon-ws.svg" class="contact-social__icon" alt="">
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap wrap_rights">
+    <p class="rights__text">© 2018 Fotcase Production. Все права защищены.</p>
+    <a class="icon-inst-wrap" href="https://www.instagram.com/fotcaseprod/" target="_blank">
+      <img class="icon-inst" src="/img/inst.svg" alt="">
+      <img class="icon-inst-color" src="/img/inst-color.svg" alt="">
+    </a>
+  </div>
+</footer>
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/main.min.js" type="text/javascript" charset="utf-8" defer></script>
+<link rel="stylesheet" type="text/css" href="css/lightbox.min.css" defer>
+<script src="js/lightbox.min.js" type="text/javascript" charset="utf-8" defer></script>
+<link rel="stylesheet" href="css/swiper.min.css" defer>
+<script src="js/swiper.min.js" defer></script>
+</body>
+
+</html>
